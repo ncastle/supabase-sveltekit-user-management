@@ -50,7 +50,7 @@
 				id: user.id,
 				username,
 				website,
-				avatarUrl,
+				avatar_url: avatarUrl,
 				updated_at: new Date()
 			};
 
@@ -91,7 +91,7 @@
 	</div>
 	<div>
 		<label for="website">Website</label>
-		<input id="website" type="text" bind:value={website} />
+		<input id="website" type="website" bind:value={website} />
 	</div>
 
 	<div>
